@@ -11,6 +11,7 @@
 		251496CB299B1EC600CC59BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251496CA299B1EC600CC59BB /* ContentView.swift */; };
 		251496CD299B1EC700CC59BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251496CC299B1EC700CC59BB /* Assets.xcassets */; };
 		251496D0299B1EC700CC59BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251496CF299B1EC700CC59BB /* Preview Assets.xcassets */; };
+		251496D7299B240A00CC59BB /* CustomColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251496D6299B240A00CC59BB /* CustomColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		251496CA299B1EC600CC59BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		251496CC299B1EC700CC59BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		251496CF299B1EC700CC59BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		251496D6299B240A00CC59BB /* CustomColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				251496C8299B1EC600CC59BB /* DemoColorPicker20230213App.swift */,
 				251496CA299B1EC600CC59BB /* ContentView.swift */,
+				251496D6299B240A00CC59BB /* CustomColorPickerView.swift */,
 				251496CC299B1EC700CC59BB /* Assets.xcassets */,
 				251496CE299B1EC700CC59BB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251496D7299B240A00CC59BB /* CustomColorPickerView.swift in Sources */,
 				251496CB299B1EC600CC59BB /* ContentView.swift in Sources */,
 				251496C9299B1EC600CC59BB /* DemoColorPicker20230213App.swift in Sources */,
 			);

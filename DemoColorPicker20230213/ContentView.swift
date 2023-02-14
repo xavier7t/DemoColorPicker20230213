@@ -8,12 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedColor: Color = .indigo
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(selectedColor)
             Text("Hello, world!")
+                .foregroundColor(selectedColor)
+            //SwiftUIStandardColorPicker
+            ColorPicker(selection: $selectedColor) {
+                Text("Change color here: ")
+            }
+            .padding(.horizontal, 50)
+            Spacer()
         }
         .padding()
     }
